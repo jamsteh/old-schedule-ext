@@ -3,10 +3,12 @@
   "description": "Turns the new schedule old",
   "version": "1.0",
   "permissions": [
-    "activeTab"
+    "activeTab",
+    "declarativeContent",
+    "storage"
   ],
   "background": {
-    "scripts": ["change_schedule.js"],
+    "scripts": ["change_schedule.js", "background.js"],
     "persistent": false
   },
   "browser_action": {
